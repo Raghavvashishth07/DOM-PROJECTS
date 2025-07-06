@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            transition: background-color 0.3s ease;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .canvas {
+            margin-top: 50px;
+        }
+
+        .btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: none;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #orange {
+            background-color: orange;
+        }
+
+        #beige {
+            background-color: beige;
+        }
+
+        #green {
+            background-color: mediumseagreen;
+        }
+
+        #aqua {
+            background-color: aqua;
+        }
+
+        .color-name {
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .utility-buttons {
+            margin-top: 30px;
+        }
+
+        .utility-buttons button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #555;
+            color: white;
+        }
+
+        /* .dark-mode {
+            background-color: #222;
+            color: white;
+        } */
+        .dark-mode {
+            background-color: #222;
+            color: white;
+        }
+
+        .dark-mode .utility-buttons button {
+            background-color: #888;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a target="_blank" href="https://github.com/Raghavvashishth07">GitHub</a>
+    </nav>
+
+    <div class="canvas">
+        <h1>🎨 Color Scheme Switcher</h1>
+
+        <button class="btn" id="orange" title="Orange"></button>
+        <button class="btn" id="beige" title="Beige"></button>
+        <button class="btn" id="green" title="Green"></button>
+        <button class="btn" id="aqua" title="Aqua"></button>
+
+        <p class="color-name">Current Color: Default</p>
+
+        <div class="utility-buttons">
+            <button id="random">Random</button>
+            <button id="reset">Reset</button>
+            <button id="toggle-mode">Dark Mode</button>
+        </div>
+    </div>
+
+    <script src="script_02.js"></script>
+</body>
+
+</html>
