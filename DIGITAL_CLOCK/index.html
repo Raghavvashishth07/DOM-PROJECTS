@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Clock</title>
+  <style>
+    body {
+      background-color: black;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    #clock {
+      font-size: 48px;
+      background: blue;
+      padding: 15px 30px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    #date {
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    #greeting {
+      font-size: 22px;
+      margin: 5px;
+      font-weight: 600;
+    }
+
+    button {
+      padding: 8px 16px;
+      margin-top: 15px;
+      background-color: #444;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>DIGITAL CLOCK</h2>
+  <div id="greeting">Hello!</div>
+  <div id="clock">00:00:00</div>
+  <div id="date">Date</div>
+  <button id="toggleFormat">Switch to 12-Hour Format</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
