@@ -23,6 +23,13 @@ These projects are beginner-friendly and focus on strengthening core JS concepts
 - 💡 Concepts: Form handling, input validation, dynamic DOM updates, conditional rendering
 
 ---
+### 3. ⏰ Digital Clock
+A live digital clock that displays the current time, date, greeting message, and a toggle to switch between 12-hour and 24-hour formats.
+
+📂 Folder: `/Digital-Clock`  
+💡 Concepts: `setInterval`, `Date object`, dynamic DOM updates, conditional rendering, format toggle
+
+---
 
 ## 🚀 How to Use
 
