@@ -11,8 +11,7 @@ These projects are beginner-friendly and focus on strengthening core JS concepts
 ### 1. 🎨 Color Scheme Changer
 > Change the background color of the page using buttons, with additional features like dark mode, random color generator, and reset.
 
-- 📂 Folder: [`/Color-Changer`](./Color-Changer)  
-- 🔗 [Live Demo (optional)](https://yourusername.github.io/DOM-PROJECTS/Color-Changer/index.html)  
+- 📂 Folder: [`/Color-Changer`](./Color-Changer)    
 - 💡 Concepts: DOM selection, event listeners, styling, theme toggle
 
 ---
