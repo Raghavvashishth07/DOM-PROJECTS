@@ -33,7 +33,19 @@ git clone https://github.com/Raghavvashishth07/DOM-PROJECTS.git
 
 [Raghav Vashishth](https://github.com/Raghavvashishth07)
 
----
+### 2. 🧮 BMI Calculator
+Enter your height and weight to calculate Body Mass Index, with categorized results and background color updates.
+
+- 📂 Folder: [`/BMI_CALCULATOR`](./BMI_CALCULATOR)  
+- 💡 Concepts: Form handling, input validation, dynamic DOM updates, conditional rendering
+
+
+## 🚀 How to Use
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Raghavvashishth07/DOM-PROJECTS.git
 
 ## 📌 Note
 
