@@ -14,13 +14,28 @@ These projects are beginner-friendly and focus on strengthening core JS concepts
 - 📂 Folder: [`/Color-Changer`](./Color-Changer)    
 - 💡 Concepts: DOM selection, event listeners, styling, theme toggle
 
+#### Color Scheme Changer
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![](./screenshots_for_Linkedin/light_mode_color_scheme.png) | ![](./screenshots_for_Linkedin/dark_mode_color_scheme.png) |
+
+
 ---
+
 
 ### 2. 🧮 BMI Calculator
 > Enter your height and weight to calculate Body Mass Index, with categorized results and background color updates.
 
 - 📂 Folder: [`/BMI_CALCULATOR`](./BMI_CALCULATOR)  
 - 💡 Concepts: Form handling, input validation, dynamic DOM updates, conditional rendering
+- 
+#### BMI Calculator
+
+| Input Screen | Result Screen |
+|--------------|----------------|
+| ![](./screenshots_for_Linkedin/BMI_CALCULATOR_MAIN.png) | ![](./screenshots_for_Linkedin/BMI_CALCULATOR_RESULT.png) |
+
 
 ---
 ### 3. ⏰ Digital Clock
@@ -28,6 +43,10 @@ A live digital clock that displays the current time, date, greeting message, and
 
 📂 Folder: `/Digital-Clock`  
 💡 Concepts: `setInterval`, `Date object`, dynamic DOM updates, conditional rendering, format toggle
+#### Digital Clock
+
+![](./screenshots_for_Linkedin/digital_clock.png)
+
 
 ---
 
