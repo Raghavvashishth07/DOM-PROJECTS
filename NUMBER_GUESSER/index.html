@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>NUMBER GUESSING GAME</h1>
+        <p>Try and guess a random number between 1 and 100</p>
+        <p>You have 10 attempts to guess the right one</p>
+
+        <form>
+            <label for="numberguess" id="guess">Guess a number</label>
+            <input type="text" id="numberguess" class="guessField">
+            <input type="submit" id="sbt" class="submit btn" value="Submit Guess">
+        </form>
+
+        <p>Previous guesses: <span class="guesss"></span></p>
+        <p>Guesses remaining: <span class="lastguess">10</span></p>
+        <p class="low_or_high"></p>
+
+        <!-- Container for restart button -->
+        <div class="startOver"></div> <!-- ✅ corrected from StartOver -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
