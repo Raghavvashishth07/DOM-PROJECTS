@@ -31,6 +31,19 @@ A live digital clock that displays the current time, date, greeting message, and
 
 ---
 
+### 4. 🎯 Number Guesser
+A number guessing game with 10 attempts. Gives feedback on each guess, tracks previous guesses, and allows restarting the game.
+
+📂 Folder: `/NUMBER_GUESSER`  
+💡 Concepts: Random number generation, conditionals, loops, input handling, resetting game state
+
+#### 🖼️ Screenshots
+
+| Initial Screen | Mid Game | Game Over |
+|----------------|----------|-----------|
+| ![Initial](./NUMBER_GUESSER/screenshots/initial.png) | ![Mid Game](./NUMBER_GUESSER/screenshots/mid-game.png) | ![Game Over](./NUMBER_GUESSER/screenshots/game-over.png) |
+
+
 ## 🚀 How to Use
 
 1. **Clone the repository**
